@@ -10,6 +10,12 @@ npm install react-oauth-ninja
 
 ## Usage
 
+## Import package to yor react app
+```javascript
+import {GoogleButton} from 'react-oauth-ninja';
+```
+
+## Use package with your credentials
 ```javascript
 import {GoogleButton} from 'react-oauth-ninja';
 
