@@ -1,11 +1,18 @@
 {
-  "name": "oauth-ninja",
+  "name": "react-oauth-ninja",
   "version": "1.0.0",
   "type": "module",
-  "description": "Simple OAuth package for Google",
+  "description": "Simple React OAuth package for Google",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/austinogola/react-oauth-ninja"
+  },
+  "bugs": {
+    "url": "https://github.com/austinogola/react-oauth-ninja/issues"
   },
   "author": "Austin",
   "license": "ISC",
