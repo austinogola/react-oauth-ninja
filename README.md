@@ -37,6 +37,7 @@ You can customize the button using the following options as props
 
 ## Options Examples
 ## styles
+Use *styles* prop to style the button size, shape, color, etc
 ```javascript
 import {GoogleButton} from 'react-oauth-ninja';
 
@@ -57,6 +58,7 @@ const Login=()=>{
 }
 ```
 ## text
+Use *text* prop to customize the value and style of text in the button
 ```javascript
 import {GoogleButton} from 'react-oauth-ninja';
 
@@ -82,9 +84,35 @@ const Login=()=>{
 }
 ```
 
+## gImg
+Use *gImg* prop to change the G logo src and its size. The default is the Google logo
+```javascript
+import {GoogleButton} from 'react-oauth-ninja';
+import {alternativeImg} from "./Images/google-button.png"
+
+const Login=()=>{
+    return(
+        <div>
+            <GoogleButton 
+                client_id='***********************.apps.googleusercontent.com'
+
+                redirect_uri='http://127.0.0.1:5000/oauth/google'
+              
+                
+                gImg={{
+                    src:{alternativeImg},
+                    width:'40px'
+                    }}
+
+            />
+        </div>
+    )
+}
+```
 
 
-Emphasis, aka italics, with *asterisks* or _underscores_.
+
+<!-- Emphasis, aka italics, with *asterisks* or _underscores_.
 
 Strong emphasis, aka bold, with **asterisks** or __underscores__.
 
@@ -162,4 +190,4 @@ Before cloning/forking this project, make sure you have the following tools inst
 
 <a href="https://github.com/YuriDevAT"><img src="https://avatars.githubusercontent.com/u/54622834?v=4" title="Julia Undeutsch" width="80" height="80"></a>
 
-[//]: contributor-faces
+[//]: contributor-faces -->
